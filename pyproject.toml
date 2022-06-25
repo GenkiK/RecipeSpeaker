@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "recipe_speaker"
+version = "0.1.0"
+description = ""
+authors = ["GenkiK <genkikinokinokinoeru@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.8.10"
+pyaudio = {file = "PyAudio-0.2.11-cp38-cp38-win_amd64.whl"}
+google-cloud-speech = "^2.14.1"
+scikit-learn = "^1.1.1"
+sklearn-crfsuite = "^0.3.6"
+gensim = "^4.2.0"
+ffmpeg-python = "^0.2.0"
+pydub = "^0.25.1"
+google-cloud-texttospeech = "^2.11.1"
+mecab = "^0.996.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
