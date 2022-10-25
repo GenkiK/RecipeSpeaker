@@ -15,8 +15,16 @@ ffmpeg-python = "^0.2.0"
 pydub = "^0.25.1"
 google-cloud-texttospeech = "^2.11.1"
 mecab = "^0.996.3"
+pyocr = "^0.8.2"
+jupyter = "^1.0.0"
+opencv-python = "^4.6.0"
+matplotlib = "^3.5.2"
+pytesseract = "^0.3.9"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
+black = "^22.6.0"
+flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
